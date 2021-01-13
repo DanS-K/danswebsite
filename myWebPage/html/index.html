@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>SENDERZ PAGE</title>
+    <link rel="stylesheet" href="\Users\44778\Documents\myWebPage\css\styles.css">
+  </head>
+  
+  <body>
+    <header
+    <nav>
+      <div id="mainbox" onclick="openFunction()"> &#9776; OPEN </div>
+  <div id="menu" class="sidemenu">
+   <a href="#">HOME</a>
+   <a href="#">ABOUT</a>
+   <a href="#">PORTFOLIO</a>
+   <a href="#">CONTACT</a>
+   <a href="#" class="closebtn" onclick="closeFunction()"> &times; </a>
+</div>   
+    </nav>
+  </header>
+  
+
+
+
+
+
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      function openFunction() {  
+      document.getElementById("menu").style.width="300px";
+      document.getElementById("mainbox").style.marginLeft="300px";
+      document.getElementById("mainbox").innerHTML="Close";
+  }
+  
+      function closeFunction() { 
+      document.getElementById("menu").style.width="0px";
+      document.getElementById("mainbox").style.marginLeft="0px";
+      document.getElementById("mainbox").innerHTML="&#9776; OPEN";
+  }
+ 
+  
+</script>
+  </body>
+  
+</html>
